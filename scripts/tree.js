@@ -8,8 +8,7 @@ do{
     else{
         xmasTree(numInput)
     }
-}
-while (numInput <= 0 || isNaN(numInput))
+}while (numInput <= 0 || isNaN(numInput))
 
 var colors = ['red', 'green']
 var bgColors = ['white', 'black']
@@ -29,10 +28,9 @@ function changeColors()
 
 changeColors();
 
-function xmasTree(num){
-
+function xmasTree(num)
+{
     var output = [];
-    //console.log("im here");
 
     output.push("*");
     output.push('\n');
@@ -48,7 +46,6 @@ function xmasTree(num){
         output.push('*');
 
         output.push('\n');
-        console.log(output)
     }
 
     output.push('CHRISTMAS IS NOT A SEASON \n IT IS A \n FEELING!')
